@@ -60,20 +60,20 @@ To open it in any SO, use [Figma](https://figma.com). -->
 
 ## 👨‍💻 How can I run it?
 
-..* Server
+* Server
 1. Run `git clone https://github.com/jeancarlos-cpu/BeTheHero`
 2. Run `cd BeTheHero/server`
 3. Run `npm install`
 4. Run `npm start`
 
-..* Web
+* Web
 1. Run `git clone https://github.com/jeancarlos-cpu/BeTheHero`
 2. Run `cd BeTheHero/web`
 3. Run `npm install`
 4. Run `npm start`
 5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-..* Mobile
+* Mobile
 
 1. Run `git clone https://github.com/jeancarlos-cpu/BeTheHero`
 2. Run `cd BeTheHero/mobile`
