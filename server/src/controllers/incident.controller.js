@@ -2,7 +2,7 @@ const db = require('../database');
 
 module.exports = {
   async index(req, res) {
-    const { page = 1, perPage = 20 } = req.query;
+    const { page = 1, perPage = 5 } = req.query;
     const incidents = await db('incidents')
       .join('ongs', 'ongs.id', '=', 'incidents.ong_id')
       .limit(perPage)
@@ -11,6 +11,7 @@ module.exports = {
         'incidents.*',
         'ongs.name',
         'ongs.whatsapp',
+        'ongs.email',
         'ongs.city',
         'ongs.uf',
       ]);
